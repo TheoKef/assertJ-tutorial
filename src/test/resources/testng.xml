@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="AssertJ Assertions">
+    <test name="Core Assertions">
+        <classes>
+            <class name="org.tutorial.assertj.tests.BasicAssertionsTests"/>
+            <class name="org.tutorial.assertj.tests.SoftAssertionTests"/>
+            <class name="org.tutorial.assertj.tests.AssumptionsTests"/>
+        </classes>
+    </test>
+
+</suite>
